@@ -1,6 +1,5 @@
 ﻿## Script para criação dos certificados raiz autoassinado e cliente para VPN Ponto a Site (Point-to-Site VPN) no Azure. - Créditos Gabriel Luiz - www.gabrielluiz.com ##
 
-
 # Criação do certificado raiz autoassinado.
 
 $cert = New-SelfSignedCertificate -Type Custom -KeySpec Signature `
